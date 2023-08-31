@@ -1,0 +1,16 @@
+query getAllCafes {
+  cafe_All {
+    items {
+      city
+      country
+      _system_ {
+        id
+      }
+      photo(limit: 1) {
+        items {
+          url
+        }
+      }
+    }
+  }
+}

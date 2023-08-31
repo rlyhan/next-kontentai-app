@@ -1,0 +1,12 @@
+query getCafeById($id: Guid) {
+  cafe(id: $id) {
+    city
+    country
+    street
+    photo(limit: 3) {
+      items {
+        url
+      }
+    }
+  }
+}
