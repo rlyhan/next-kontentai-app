@@ -5,7 +5,7 @@ export default function Document() {
   return (
     <Html lang="en">
       <Head>
-        <HeadHtml siteTitle="Next.js Contentful App" />
+        <HeadHtml siteTitle="Next.js Kontent.ai App" />
       </Head>
       <body>
         <Main />
